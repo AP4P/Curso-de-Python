@@ -1,0 +1,46 @@
+# Exercicios práticos Python
+
+# 1 - Variaveis e tipos de dados
+# cadastro de usuario
+
+# nome = input("digite seu nome")
+# idade = int(input("didgite sua idade"))
+# cidade = input ("digite sua cidade")
+# altura = float(input("digite sua altura"))
+# carteira = input("carteira_de_motorista")
+
+# print("ola seja bem-vindo(a)")
+# print(nome)
+# print("voce tem", idade, "anos")
+# print("onde mora", cidade)
+# print("e tem", altura, "m")
+# print(True)
+
+
+# # Exercicio 2 - Cadastro de Produto
+# digite_o_nome_produto = input("digitar o nome do produto")
+# digite_o_preco = float(input("digite_o_preco"))
+# digite_a_quantidade_disponivel = int(input("digite_a_quantidade_disponivel"))
+# digite_a_categoria = ("digite_a_categoria")
+# o_produto_esta_em_promocao = ("o_produto_esta_em_promocao?", "false")
+
+# print("ola seja bem-vindo(a)")
+# print("digite_o_nome", "produto")
+# print(digite_a_quantidade_disponivel)
+# print("categoria", "informatica")
+# print(False)
+
+
+# Operadores Aritméticos
+# Exercicio 1 - Calculadora de compra
+quantidade_do_primeiro_produto = int(input("quantidade_do_primeiro_produto"))
+valor_do_primeiro_produto = float(input("valor_do_primeiro_produto"))
+
+quantidade_do_segundo_produto = int(input("quantidade_do_segundo_produto"))
+valor_do_segundo_produto = float(input("valor_do_segundo_produto"))
+
+quantidade_total = quantidade_do_primeiro_produto +quantidade_do_segundo_produto 
+valor_total = quantidade_total * ((valor_do_primeiro_produto +valor_do_segundo_produto))
+
+print("quantidade_total_de_produtos",quantidade_total)
+print("valor_total_da_compra",valor_total) 
